@@ -10,7 +10,7 @@ public class Main {
 
 
        Bank bank = new Bank(AccountFactories.generateRandomAccountList(30));
-       bank.printAccountList(); //Check all generated Accounts Type
+       //bank.printAccountList(); //Check all generated Accounts Type
        bank.updateAccountsBalance(); //update process
 
     }

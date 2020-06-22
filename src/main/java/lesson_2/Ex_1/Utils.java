@@ -9,6 +9,10 @@ public class Utils {
         String[] uniqueID = UUID.randomUUID().toString().split("-");
         return Integer.parseInt(uniqueID[0].replaceAll("\\D+",""));
     }
+    public static String getUniqueId(){
+        String[] uniqueID = UUID.randomUUID().toString().split("-");
+        return uniqueID[0];
+    }
     public static int getRandomNumber(int bound){
         return secureRandom.nextInt(bound)+1;
     }
